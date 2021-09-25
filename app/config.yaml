@@ -1,5 +1,5 @@
 resize_shape: [256, 256]
-targets: ['Fire_Images']
+targets: ["Fire_Images"]
 model_file_paths: ["<FILE_NAME(S)_FOR_YOUR_MODEL>"]
-base_model_url: "https://github.com/<YOUR_GITHUB_HANDLE>/Fire-Detection-API-Project/releases/download/<YOUR_RELEASE_VERSION>"
+base_model_url: "https://github.com/Kou-kun42/Fire-Detection-API/releases/download/<YOUR_RELEASE_VERSION>"
 model_sha256: "<YOUR_RELEASE'S_SHA256_HASH>"

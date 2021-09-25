@@ -1,5 +1,6 @@
 resize_shape: [256, 256]
 targets: ["Fire_Images"]
-model_file_paths: ["<FILE_NAME(S)_FOR_YOUR_MODEL>"]
-base_model_url: "https://github.com/Kou-kun42/Fire-Detection-API/releases/download/<YOUR_RELEASE_VERSION>"
-model_sha256: "<YOUR_RELEASE'S_SHA256_HASH>"
+model_file_paths:
+    ["fire_cnn_classifier_params.h5", "fire_cnn_classifier_layers.json"]
+base_model_url: "https://github.com/Kou-kun42/Fire-Detection-API/releases/tag/Finished"
+model_sha256: "4991c355c8642810da456cd5440a742f58cfb224"

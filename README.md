@@ -17,9 +17,19 @@ To classify your own images, you can use the live API: use the link [here](https
 ### Running Locally
 You only need to use ONE of the following options:
 
-#### Using a Virtual Environment
+#### Option #1: Using Docker
+You can download this repository and run it using [Docker](https://www.docker.com/get-started):
 
-This will allow you to also run the automated tests as well (discussed below). Here is the command to install the dependencies locally:
+```
+$ docker compose up
+```
+
+Then head over to [http://localhost:8000/docs](http://localhost:8000/docs) or [http://localhost:8000/redoc](http://localhost:8000/redoc) in the browser.
+
+#### Option #2: Using Virtual Environments
+
+Alternatively, you can also make a virtual environment. This is *recommended*, as it will allow you to also run the automated tests as well 
+(discussed below). Here are the commands to install the dependencies locally:
 
 ```
 $ python3 -m venv env  
@@ -39,6 +49,7 @@ To run the tests, you will first need to set up a Python virtual environment to 
 ```
 If there are no failures, then you should be good to go!
 You can inspect the code for the tests in `app/main_test.py` if you wish.
+
 ## The Data and the Model
 The image dataset and neural network model used for the production API will be documented on the [Releases](https://github.com/UPstartDeveloper/Fire-Detection-API/releases) page of this repository.
 
